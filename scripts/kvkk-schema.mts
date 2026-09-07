@@ -11,7 +11,9 @@ export const kvkkSchema = z.object({
   gerekliAdimlar: z.array(z.string()),
   yukumlulukDoguyorMu: z.boolean(),
   guvenSkoru: z
-    .number()
+    .int()
+    .min(0)
+    .max(100)
     .describe(
       "0 ile 100 arasında tam sayı. Analizin ne kadar güvenilir olduğu.",
     ),
