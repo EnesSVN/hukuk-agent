@@ -1,0 +1,73 @@
+===== TUR 1 — 20 soru =====
+--- SORU 1 ---
+    1 PATLADI: AI_RetryError
+--- SORU 2 ---
+--- SORU 3 ---
+    3 PATLADI: AI_RetryError
+--- SORU 4 ---
+    4 PATLADI: AI_RetryError
+--- SORU 5 ---
+--- SORU 6 ---
+--- SORU 7 ---
+--- SORU 8 ---
+--- SORU 9 ---
+--- SORU 10 ---
+--- SORU 11 ---
+--- SORU 12 ---
+    12 PATLADI: AI_RetryError
+--- SORU 13 ---
+--- SORU 14 ---
+--- SORU 15 ---
+    15 PATLADI: AI_RetryError
+--- SORU 16 ---
+--- SORU 17 ---
+--- SORU 18 ---
+    18 PATLADI: AI_RetryError
+--- SORU 19 ---
+--- SORU 20 ---
+    20 PATLADI: AI_RetryError
+TUR 1 sonunda 7 soru patlamis, tekrar denenecek.
+===== TUR 2 — 7 soru =====
+--- SORU 1 ---
+    1 PATLADI: AI_RetryError
+--- SORU 3 ---
+--- SORU 4 ---
+--- SORU 12 ---
+--- SORU 15 ---
+    15 PATLADI: AI_RetryError
+--- SORU 18 ---
+    18 PATLADI: AI_RetryError
+--- SORU 20 ---
+TUR 2 sonunda 3 soru patlamis, tekrar denenecek.
+===== TUR 3 — 3 soru =====
+--- SORU 1 ---
+--- SORU 15 ---
+    15 PATLADI: AI_RetryError
+--- SORU 18 ---
+TUR 3 sonunda 1 soru patlamis, tekrar denenecek.
+┌─────────┬────┬──────────────────────────────────┬────────────────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────────┬───────┬──────────────────────┐
+│ (index) │ no │ soru                             │ beklenen                           │ cagrilan                                                                                         │ dogru │ hata                 │
+├─────────┼────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────┼───────┼──────────────────────┤
+│ 0       │ 1  │ '83947 çarpı 2916 kaç eder?'     │ 'hesapla'                          │ 'hesapla'                                                                                        │ true  │ ''                   │
+│ 1       │ 2  │ '1284736 bölü 47 kaç eder?'      │ 'hesapla'                          │ 'hesapla'                                                                                        │ true  │ ''                   │
+│ 2       │ 3  │ '9384756 eksi 2947183 kaç eder?' │ 'hesapla'                          │ 'hesapla+hesapla'                                                                                │ true  │ ''                   │
+│ 3       │ 4  │ '58392 artı 4837291 kaç eder?'   │ 'hesapla'                          │ 'hesapla'                                                                                        │ true  │ ''                   │
+│ 4       │ 5  │ "7734 ile 8829'u çarparsam sonu" │ 'hesapla'                          │ 'hesapla'                                                                                        │ true  │ ''                   │
+│ 5       │ 6  │ '2026-03-12 tarihine 30 gün ekl' │ 'tarih_hesapla'                    │ 'tarih_hesapla'                                                                                  │ true  │ ''                   │
+│ 6       │ 7  │ "2026-01-31'den 45 gün sonrası " │ 'tarih_hesapla'                    │ 'tarih_hesapla'                                                                                  │ true  │ ''                   │
+│ 7       │ 8  │ '2026-02-28 tarihine 1 gün ekle' │ 'tarih_hesapla'                    │ 'tarih_hesapla'                                                                                  │ true  │ ''                   │
+│ 8       │ 9  │ '2026-11-15 tarihinden 90 gün s' │ 'tarih_hesapla'                    │ 'tarih_hesapla'                                                                                  │ true  │ ''                   │
+│ 9       │ 10 │ "2026-06-01'e 180 gün eklenince" │ 'tarih_hesapla'                    │ 'tarih_hesapla'                                                                                  │ true  │ ''                   │
+│ 10      │ 11 │ 'Veri ihlali bildirimi için yas' │ 'veritabani_sorgula'               │ 'veritabani_sorgula'                                                                             │ true  │ ''                   │
+│ 11      │ 12 │ 'İlgili kişi başvurusunu kaç gü' │ 'veritabani_sorgula'               │ 'veritabani_sorgula+veritabani_sorgula+veritabani_sorgula'                                       │ true  │ ''                   │
+│ 12      │ 13 │ 'VERBİS kaydı hangi maddede düz' │ 'veritabani_sorgula'               │ 'veritabani_sorgula'                                                                             │ true  │ ''                   │
+│ 13      │ 14 │ 'Aydınlatma yükümlülüğü kaçıncı' │ 'veritabani_sorgula'               │ 'veritabani_sorgula+veritabani_sorgula+veritabani_sorgula+veritabani_sorgula+veritabani_sorgula' │ true  │ ''                   │
+│ 14      │ 15 │ 'Kurul kararını yerine getirmek' │ 'veritabani_sorgula'               │ '-'                                                                                              │ false │ '3 turda da patladi' │
+│ 15      │ 16 │ "Veri ihlalini 2026-03-12'de öğ" │ 'veritabani_sorgula+tarih_hesapla' │ 'tarih_hesapla'                                                                                  │ false │ ''                   │
+│ 16      │ 17 │ 'İlgili kişi başvurusu 2026-05-' │ 'veritabani_sorgula+tarih_hesapla' │ 'veritabani_sorgula+veritabani_sorgula+veritabani_sorgula+tarih_hesapla'                         │ true  │ ''                   │
+│ 17      │ 18 │ "Kurul kararı 2026-09-01'de teb" │ 'veritabani_sorgula+tarih_hesapla' │ 'veritabani_sorgula+veritabani_sorgula+veritabani_sorgula+veritabani_sorgula+veritabani_sorgula' │ false │ ''                   │
+│ 18      │ 19 │ "2026-07-20'de veri ihlali oldu" │ 'veritabani_sorgula+tarih_hesapla' │ 'veritabani_sorgula+veritabani_sorgula+veritabani_sorgula+veritabani_sorgula+tarih_hesapla'      │ true  │ ''                   │
+│ 19      │ 20 │ "Başvuru 2026-12-15'te alındı. " │ 'veritabani_sorgula+tarih_hesapla' │ 'veritabani_sorgula+veritabani_sorgula+veritabani_sorgula+veritabani_sorgula+veritabani_sorgula' │ false │ ''                   │
+└─────────┴────┴──────────────────────────────────┴────────────────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────┴───────┴──────────────────────┘
+DOGRU: 16/20
+3 TURDA DA PATLAYAN: 1
