@@ -1,0 +1,10 @@
+┌─────────┬────┬─────────────────────────────┬────────┬──────────────────────────────────────┬──────────────────────────────────────┐
+│ (index) │ no │ tip                         │ mesafe │ a                                    │ b                                    │
+├─────────┼────┼─────────────────────────────┼────────┼──────────────────────────────────────┼──────────────────────────────────────┤
+│ 0       │ 1  │ 'olumsuzlama'               │ 0.0829 │ 'Veri sorumlusu ihlali Kurula bildi' │ 'Veri sorumlusu ihlali Kurula bildi' │
+│ 1       │ 4  │ 'sayi farki'                │ 0.1561 │ 'Başvuru 30 gün içinde yanıtlanır'   │ 'Başvuru 60 gün içinde yanıtlanır'   │
+│ 2       │ 3  │ 'ozne + olumsuzlama'        │ 0.2241 │ 'Veri sorumlusu Sicile kaydolur'     │ 'Veri işleyen Sicile kaydolmaz'      │
+│ 3       │ 2  │ 'ayni anlam, farkli kelime' │ 0.261  │ 'Kişisel veriler açık rıza olmadan ' │ 'Açık rıza bulunmaksızın kişisel ve' │
+│ 4       │ 5  │ 'alakasiz'                  │ 0.4713 │ 'Kişisel veriler hukuka uygun işlen' │ 'Fatura 5 yıl saklanır'              │
+└─────────┴────┴─────────────────────────────┴────────┴──────────────────────────────────────┴──────────────────────────────────────┘
+USAGE : { tokens: 135 }
