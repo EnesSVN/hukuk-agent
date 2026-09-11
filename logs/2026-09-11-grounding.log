@@ -1,0 +1,27 @@
+--- SORU 1 ---
+VERBİS’e kayıt yapmanız gereken süre, kayıt yükümlülüğüne tabi olduğunuz tarihten itibaren **otuz (30) gün içinde** tir. Bu kural, chunk 14’te şu şekilde ifade edilmiştir: “Kayıt yükümlülüğü altına girmelerini müteakip otuz gün içerisinde Sicile kaydolurlar.” [chunk 14]  
+
+Eğer kayıt yükümlülüğünüzü yerine getirmekte bir fiili, teknik ya da hukuki imkânsızlık yaşarsanız, bu imkânsızlığın ortaya çıktığı tarihten itibaren en geç 7 iş günü içinde Kuruma yazılı başvuruda bulunarak ek süre talep edebilirsiniz; Kurum bir defaya mahsus ve en fazla otuz günü geçmemek üzere ek süre verebilir. [chunk 14] 
+
+--- SORU 2 ---
+Veri Sorumluları Sicilini Başkanlık tutar. [chunk 6] 
+
+--- SORU 3 ---
+Bu bilgi verilen kaynaklarda yok. 
+
+--- SORU 4 ---
+Bu bilgi verilen kaynaklarda yok. 
+
+--- SORU 5 ---
+Bu bilgi verilen kaynaklarda yok. 
+
+┌─────────┬────┬─────────────┬──────────┬───────────┬───────┐
+│ (index) │ no │ korpustaVar │ reddetti │ alintiVar │ dogru │
+├─────────┼────┼─────────────┼──────────┼───────────┼───────┤
+│ 0       │ 1  │ true        │ false    │ true      │ true  │
+│ 1       │ 2  │ true        │ false    │ true      │ true  │
+│ 2       │ 3  │ true        │ true     │ false     │ false │
+│ 3       │ 4  │ false       │ true     │ false     │ true  │
+│ 4       │ 5  │ false       │ true     │ false     │ true  │
+└─────────┴────┴─────────────┴──────────┴───────────┴───────┘
+DOGRU: 4/5
